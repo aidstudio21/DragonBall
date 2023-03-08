@@ -1,0 +1,630 @@
+<com.mxn.soul.flowingdrawer_core.FlowingDrawer xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/drawerlayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:clipChildren="false"
+	android:clipToPadding="false"
+	app:edPosition="1"
+	app:edMenuSize="260dp"
+	app:edMenuBackground="#006FA1"
+	tools:ignore="MissingDefaultResource">
+
+	<!--content-->
+	<RelativeLayout
+		android:id="@+id/content"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@drawable/bg_all"
+		android:orientation="vertical">
+
+
+		<LinearLayout
+			android:id="@+id/alap"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@color/colorAccent"
+			android:orientation="vertical">
+
+
+			<ScrollView
+				android:id="@+id/vscroll1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<LinearLayout
+					android:id="@+id/linear12"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal"
+					android:orientation="vertical">
+
+					<androidx.constraintlayout.widget.ConstraintLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+
+
+						<ImageView
+							android:id="@+id/imageview3"
+							android:layout_width="302dp"
+							android:layout_height="148dp"
+							android:layout_marginStart="50dp"
+							android:focusable="false"
+							android:scaleType="fitCenter"
+							android:src="@drawable/rectangle_1"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintEnd_toEndOf="parent"
+							app:layout_constraintHorizontal_bias="0.782"
+							app:layout_constraintStart_toStartOf="parent"
+							app:layout_constraintTop_toTopOf="parent"
+							app:layout_constraintVertical_bias="0.471"
+							tools:ignore="MissingConstraints" />
+
+						<ImageView
+							android:id="@+id/imageview28"
+							android:layout_width="135dp"
+							android:layout_height="201dp"
+							android:layout_marginEnd="216dp"
+							android:focusable="false"
+							android:scaleType="fitCenter"
+							android:src="@drawable/db1"
+							app:layout_constraintBottom_toBottomOf="@+id/imageview3"
+							app:layout_constraintEnd_toEndOf="@+id/imageview3"
+							app:layout_constraintTop_toTopOf="@+id/imageview3"
+							app:layout_constraintVertical_bias="0.452"
+							tools:ignore="MissingConstraints" />
+
+						<TextView
+							android:id="@+id/textview"
+							android:layout_width="215dp"
+							android:layout_height="56dp"
+							android:layout_marginStart="15dp"
+							android:layout_marginTop="12dp"
+							android:layout_marginEnd="5dp"
+							android:focusable="false"
+							android:gravity="center_horizontal|center_vertical"
+							android:text="DragonBall"
+							android:textColor="#000000"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							app:layout_constraintEnd_toEndOf="@+id/imageview3"
+							app:layout_constraintHorizontal_bias="0.835"
+							app:layout_constraintStart_toStartOf="@+id/imageview3"
+							app:layout_constraintTop_toTopOf="@+id/imageview3"
+							tools:ignore="MissingConstraints" />
+
+						<Button
+							android:id="@+id/go_db1"
+							android:layout_width="176dp"
+							android:layout_height="49dp"
+							android:layout_marginStart="5dp"
+							android:layout_marginEnd="5dp"
+							android:layout_marginBottom="16dp"
+							android:background="@drawable/rectangle_13"
+							android:text="@string/megnezem"
+							android:textColor="#000000"
+							android:textSize="18sp"
+							android:textStyle="bold"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintEnd_toEndOf="@+id/imageview3"
+							app:layout_constraintHorizontal_bias="0.827"
+							app:layout_constraintStart_toStartOf="@+id/imageview3"
+							tools:ignore="MissingConstraints" />
+
+					</androidx.constraintlayout.widget.ConstraintLayout>
+
+					<FrameLayout
+						android:id="@+id/banner"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="8dp" />
+
+					<androidx.constraintlayout.widget.ConstraintLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+
+
+						<ImageView
+							android:id="@+id/imageview44"
+							android:layout_width="302dp"
+							android:layout_height="148dp"
+							android:layout_marginStart="50dp"
+							android:focusable="false"
+							android:scaleType="fitCenter"
+							android:src="@drawable/rectangle_1"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintEnd_toEndOf="parent"
+							app:layout_constraintHorizontal_bias="0.782"
+							app:layout_constraintStart_toStartOf="parent"
+							app:layout_constraintTop_toTopOf="parent"
+							app:layout_constraintVertical_bias="0.471"
+							tools:ignore="MissingConstraints" />
+
+						<ImageView
+							android:id="@+id/imageview1"
+							android:layout_width="135dp"
+							android:layout_height="201dp"
+							android:layout_marginEnd="216dp"
+							android:focusable="false"
+							android:scaleType="fitCenter"
+							android:src="@drawable/dbz"
+							app:layout_constraintBottom_toBottomOf="@+id/imageview44"
+							app:layout_constraintEnd_toEndOf="@+id/imageview44"
+							app:layout_constraintTop_toTopOf="@+id/imageview44"
+							tools:ignore="MissingConstraints" />
+
+						<TextView
+							android:id="@+id/textview1"
+							android:layout_width="215dp"
+							android:layout_height="56dp"
+							android:layout_marginStart="15dp"
+							android:layout_marginTop="12dp"
+							android:layout_marginEnd="5dp"
+							android:focusable="false"
+							android:gravity="center_horizontal|center_vertical"
+							android:text="DragonBall Z"
+							android:textColor="#000000"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							app:layout_constraintEnd_toEndOf="@+id/imageview44"
+							app:layout_constraintHorizontal_bias="0.835"
+							app:layout_constraintStart_toStartOf="@+id/imageview44"
+							app:layout_constraintTop_toTopOf="@+id/imageview44"
+							tools:ignore="MissingConstraints" />
+
+						<Button
+							android:id="@+id/go_dbz"
+							android:layout_width="176dp"
+							android:layout_height="49dp"
+							android:layout_marginStart="5dp"
+							android:layout_marginEnd="5dp"
+							android:layout_marginBottom="16dp"
+							android:background="@drawable/rectangle_13"
+							android:text="@string/megnezem"
+							android:textColor="#000000"
+							android:textSize="18sp"
+							android:textStyle="bold"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintEnd_toEndOf="@+id/imageview44"
+							app:layout_constraintHorizontal_bias="0.827"
+							app:layout_constraintStart_toStartOf="@+id/imageview44"
+							tools:ignore="MissingConstraints" />
+
+					</androidx.constraintlayout.widget.ConstraintLayout>
+
+					<FrameLayout
+						android:id="@+id/nativead"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="8dp" />
+
+					<androidx.constraintlayout.widget.ConstraintLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+
+
+						<ImageView
+							android:id="@+id/imageview45"
+							android:layout_width="302dp"
+							android:layout_height="148dp"
+							android:layout_marginStart="50dp"
+							android:focusable="false"
+							android:scaleType="fitCenter"
+							android:src="@drawable/rectangle_1"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintEnd_toEndOf="parent"
+							app:layout_constraintHorizontal_bias="0.782"
+							app:layout_constraintStart_toStartOf="parent"
+							app:layout_constraintTop_toTopOf="parent"
+							app:layout_constraintVertical_bias="0.471"
+							tools:ignore="MissingConstraints" />
+
+						<ImageView
+							android:id="@+id/imageView2"
+							android:layout_width="135dp"
+							android:layout_height="201dp"
+							android:layout_marginEnd="216dp"
+							android:focusable="false"
+							android:scaleType="fitCenter"
+							android:src="@drawable/dbgt"
+							app:layout_constraintBottom_toBottomOf="@+id/imageview45"
+							app:layout_constraintEnd_toEndOf="@+id/imageview45"
+							app:layout_constraintTop_toTopOf="@+id/imageview45"
+							tools:ignore="MissingConstraints" />
+
+						<TextView
+							android:id="@+id/textView2"
+							android:layout_width="215dp"
+							android:layout_height="56dp"
+							android:layout_marginStart="15dp"
+							android:layout_marginTop="12dp"
+							android:layout_marginEnd="5dp"
+							android:focusable="false"
+							android:gravity="center_horizontal|center_vertical"
+							android:text="DragonBall Gt"
+							android:textColor="#000000"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							app:layout_constraintEnd_toEndOf="@+id/imageview45"
+							app:layout_constraintHorizontal_bias="0.835"
+							app:layout_constraintStart_toStartOf="@+id/imageview45"
+							app:layout_constraintTop_toTopOf="@+id/imageview45"
+							tools:ignore="MissingConstraints" />
+
+						<Button
+							android:id="@+id/go_dbgt"
+							android:layout_width="176dp"
+							android:layout_height="49dp"
+							android:layout_marginStart="5dp"
+							android:layout_marginEnd="5dp"
+							android:layout_marginBottom="16dp"
+							android:background="@drawable/rectangle_13"
+							android:text="@string/megnezem"
+							android:textColor="#000000"
+							android:textSize="18sp"
+							android:textStyle="bold"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintEnd_toEndOf="@+id/imageview45"
+							app:layout_constraintHorizontal_bias="0.827"
+							app:layout_constraintStart_toStartOf="@+id/imageview45"
+							tools:ignore="MissingConstraints" />
+
+					</androidx.constraintlayout.widget.ConstraintLayout>
+
+					<FrameLayout
+						android:id="@+id/banners"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="8dp" />
+
+					<androidx.constraintlayout.widget.ConstraintLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+
+
+						<ImageView
+							android:id="@+id/imageview46"
+							android:layout_width="302dp"
+							android:layout_height="148dp"
+							android:layout_marginStart="50dp"
+							android:focusable="false"
+							android:scaleType="fitCenter"
+							android:src="@drawable/rectangle_1"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintEnd_toEndOf="parent"
+							app:layout_constraintHorizontal_bias="0.782"
+							app:layout_constraintStart_toStartOf="parent"
+							app:layout_constraintTop_toTopOf="parent"
+							app:layout_constraintVertical_bias="0.471"
+							tools:ignore="MissingConstraints" />
+
+						<ImageView
+							android:id="@+id/imageview4"
+							android:layout_width="135dp"
+							android:layout_height="201dp"
+							android:layout_marginEnd="216dp"
+							android:focusable="false"
+							android:scaleType="fitCenter"
+							android:src="@drawable/dbs"
+							app:layout_constraintBottom_toBottomOf="@+id/imageview46"
+							app:layout_constraintEnd_toEndOf="@+id/imageview46"
+							app:layout_constraintTop_toTopOf="@+id/imageview46"
+							tools:ignore="MissingConstraints" />
+
+						<TextView
+							android:id="@+id/textView5"
+							android:layout_width="215dp"
+							android:layout_height="56dp"
+							android:layout_marginStart="15dp"
+							android:layout_marginTop="12dp"
+							android:layout_marginEnd="5dp"
+							android:focusable="false"
+							android:gravity="center_horizontal|center_vertical"
+							android:text="DragonBall Super"
+							android:textColor="#000000"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							app:layout_constraintEnd_toEndOf="@+id/imageview46"
+							app:layout_constraintHorizontal_bias="0.835"
+							app:layout_constraintStart_toStartOf="@+id/imageview46"
+							app:layout_constraintTop_toTopOf="@+id/imageview46"
+							tools:ignore="MissingConstraints" />
+
+						<Button
+							android:id="@+id/go_db"
+							android:layout_width="176dp"
+							android:layout_height="49dp"
+							android:layout_marginStart="5dp"
+							android:layout_marginEnd="5dp"
+							android:layout_marginBottom="16dp"
+							android:background="@drawable/rectangle_13"
+							android:text="@string/megnezem"
+							android:textColor="#000000"
+							android:textSize="18sp"
+							android:textStyle="bold"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintEnd_toEndOf="@+id/imageview46"
+							app:layout_constraintHorizontal_bias="0.827"
+							app:layout_constraintStart_toStartOf="@+id/imageview46"
+							tools:ignore="MissingConstraints" />
+
+					</androidx.constraintlayout.widget.ConstraintLayout>
+				</LinearLayout>
+			</ScrollView>
+		</LinearLayout>
+	</RelativeLayout>
+
+
+
+	<!--menu-->
+	<com.mxn.soul.flowingdrawer_core.FlowingMenuLayout
+		android:id="@+id/menulayout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1" >
+
+		<LinearLayout
+			android:layout_width="260dp"
+			android:layout_height="match_parent"
+			android:gravity="center_horizontal|bottom"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:gravity="center_horizontal"
+				android:orientation="vertical"
+				android:weightSum="1">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+
+					android:gravity="center_horizontal"
+					android:background="#203573"
+					android:orientation="horizontal">
+
+					<LinearLayout
+						android:layout_width="146dp"
+						android:layout_height="115dp"
+						android:background="@drawable/player_logo"
+						android:orientation="horizontal" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="5dp"
+					android:gravity="bottom">
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="5dp"
+						android:background="#000000"
+						android:gravity="bottom"/>
+				</LinearLayout>
+
+
+				<LinearLayout
+					android:id="@+id/developer"
+					android:layout_width="260dp"
+					android:layout_height="92dp"
+					android:onClick="developer"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="60dp"
+							android:gravity="center_vertical"
+							android:orientation="horizontal">
+
+							<LinearLayout
+								android:layout_width="60dp"
+								android:layout_height="match_parent"
+								android:background="@drawable/app_icon"
+								android:orientation="vertical">
+
+							</LinearLayout>
+
+							<TextView
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:gravity="center_horizontal|center_vertical"
+								android:text="Developer"
+								android:textColor="#000000"
+								android:textSize="20sp"
+								android:textStyle="bold" />
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="25dp"
+						android:gravity="bottom">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="3dp"
+							android:background="#000000"
+							android:gravity="bottom"/>
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/app_info"
+					android:layout_width="260dp"
+					android:layout_height="92dp"
+					android:onClick="app_info"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="60dp"
+							android:gravity="center_vertical"
+							android:orientation="horizontal">
+
+							<LinearLayout
+								android:layout_width="60dp"
+								android:layout_height="match_parent"
+								android:background="@drawable/app_icon"
+								android:orientation="vertical">
+
+							</LinearLayout>
+
+							<TextView
+								android:id="@+id/textView4"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:gravity="center_horizontal|center_vertical"
+								android:text="App Info"
+								android:textColor="#000000"
+								android:textSize="20sp"
+								android:textStyle="bold" />
+						</LinearLayout>
+
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="25dp"
+						android:gravity="bottom">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="3dp"
+							android:background="#000000"
+							android:gravity="bottom"/>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/update"
+					android:layout_width="260dp"
+					android:layout_height="92dp"
+					android:onClick="update"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="60dp"
+							android:gravity="center_vertical"
+							android:orientation="horizontal">
+
+							<LinearLayout
+								android:layout_width="60dp"
+								android:layout_height="match_parent"
+								android:background="@drawable/app_icon"
+								android:orientation="vertical">
+
+							</LinearLayout>
+
+							<TextView
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:gravity="center_horizontal|center_vertical"
+								android:text="Update"
+								android:textColor="#000000"
+								android:textSize="20sp"
+								android:textStyle="bold" />
+						</LinearLayout>
+
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="25dp"
+						android:gravity="bottom">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="3dp"
+							android:background="#000000"
+							android:gravity="bottom"/>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/donate"
+					android:layout_width="260dp"
+					android:layout_height="92dp"
+					android:onClick="donate"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="60dp"
+							android:gravity="center_vertical"
+							android:orientation="horizontal">
+
+							<LinearLayout
+								android:layout_width="60dp"
+								android:layout_height="match_parent"
+								android:background="@drawable/app_icon"
+								android:orientation="vertical">
+
+							</LinearLayout>
+
+							<TextView
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:gravity="center_horizontal|center_vertical"
+								android:text="Donate"
+								android:textColor="#000000"
+								android:textSize="20sp"
+								android:textStyle="bold" />
+						</LinearLayout>
+
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="25dp"
+						android:gravity="bottom">
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="3dp"
+							android:background="#000000"
+							android:gravity="bottom"/>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+
+			<TextView
+				android:id="@+id/textView3"
+				android:layout_width="match_parent"
+				android:layout_height="66dp"
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:text="Version: 0.1.4 Beta"
+				android:textColor="#000000"
+				android:textSize="16sp"
+				android:textStyle="bold" />
+		</LinearLayout>
+
+	</com.mxn.soul.flowingdrawer_core.FlowingMenuLayout>
+</com.mxn.soul.flowingdrawer_core.FlowingDrawer>
