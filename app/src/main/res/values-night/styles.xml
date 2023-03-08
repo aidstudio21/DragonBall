@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <style name="MyDarkToolbarStyle" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:colorBackground">#212121</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+    </style>
+</resources>

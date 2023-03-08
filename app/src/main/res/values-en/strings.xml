@@ -1,0 +1,54 @@
+<resources>
+    <!--App Name-->
+    <string name="app_name">DB Online Player Beta</string>
+
+    <!--Teszt-->
+    <string name="E021">E021</string>
+
+    <!--Funds-->
+    <string name="megnezem">I\'ll have a look</string>
+    <string name="megsem">Not yet</string>
+    <string name="megakkarja">Do you want to view it?</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!--Dragon Ball Season List-->
+    <string name="dbe1">Dragon Ball 1.Season 1–39.Part</string>
+    <string name="dbe2">Dragon Ball 2.Season 40–74.Part</string>
+    <string name="dbe3">Dragon Ball 3.Season 75–107.Part</string>
+    <string name="dbe4">Dragon Ball 4.Season 108–139.Part</string>
+    <string name="dbe5">Dragon Ball 5.Season 140–165.Part</string>
+    <string name="dbe6">Dragon Ball 6.Season 166–194.Part</string>
+    <string name="dbe7">Dragon Ball 7.Season 195–219.Part</string>
+    <string name="dbe8">Dragon Ball 8.Season 220–253.Part</string>
+    <string name="dbe9">Dragon Ball 9.Season 254–291.Part</string>
+
+    <!--Dragon Ball Z Season List-->
+    <string name="dbze1">Dragon Ball Z 1.Season 1–39.Part</string>
+    <string name="dbze2">Dragon Ball Z 2.Season 40–74.Part</string>
+    <string name="dbze3">Dragon Ball Z 3.Season 75–107.Part</string>
+    <string name="dbze4">Dragon Ball Z 4.Season 108–139.Part</string>
+    <string name="dbze5">Dragon Ball Z 5.Season 140–165.Part</string>
+    <string name="dbze6">Dragon Ball Z 6.Season 166–194.Part</string>
+    <string name="dbze7">Dragon Ball Z 7.Season 195–219.Part</string>
+    <string name="dbze8">Dragon Ball Z 8.Season 220–253.Part</string>
+    <string name="dbze9">Dragon Ball Z 9.Season 254–291.Part</string>
+
+    <!--Dragon Ball GT Season List-->
+    <string name="dbgte1">Dragon Ball GT 1.Season 1–16.Part</string>
+    <string name="dbgte2">Dragon Ball GT 2.Season 17–40.Part</string>
+    <string name="dbgte3">Dragon Ball GT 3.Season 41–47.Part</string>
+    <string name="dbgte4">Dragon Ball GT 4.Season 48–64.Part</string>
+    <string name="dbgte5">Dragon Ball GT A Hero\'s Legacy</string>
+
+
+    <!--Dragon Ball Super Évad Lista-->
+    <string name="dbse1">Dragon Ball Super 1.Season 1–18.Part</string>
+    <string name="dbse2">Dragon Ball Super 2.Season 19–27.Part</string>
+    <string name="dbse3">Dragon Ball Super 3.Season 28–46.Part</string>
+    <string name="dbse4">Dragon Ball Super 4.Season 47–76.Part</string>
+    <string name="dbse5">Dragon Ball Super 5.Season 77–131.Part</string>
+    <string name="todo">TODO</string>
+
+
+</resources>

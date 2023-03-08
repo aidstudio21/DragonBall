@@ -1,0 +1,54 @@
+<resources>
+	<!--App Neve-->
+	<string name="app_name">DB Online Player</string>
+
+	<!--Teszt-->
+	<string name="E021">E021</string>
+
+	<!--Alapok-->
+	<string name="megnezem">Megnézem</string>
+	<string name="megsem">Mégsem</string>
+	<string name="megakkarja">Meg akkarja tekinteni?</string>
+	<string name="open">Open</string>
+	<string name="close">Close</string>
+
+	<!--Dragon Ball Évad Lista-->
+	<string name="dbe1">Dragon Ball 1.Évad 1–39.Rész</string>
+	<string name="dbe2">Dragon Ball 2.Évad 40–74.Rész</string>
+	<string name="dbe3">Dragon Ball 3.Évad 75–107.Rész</string>
+	<string name="dbe4">Dragon Ball 4.Évad 108–139.Rész</string>
+	<string name="dbe5">Dragon Ball 5.Évad 140–165.Rész</string>
+	<string name="dbe6">Dragon Ball 6.Évad 166–194.Rész</string>
+	<string name="dbe7">Dragon Ball 7.Évad 195–219.Rész</string>
+	<string name="dbe8">Dragon Ball 8.Évad 220–253.Rész</string>
+	<string name="dbe9">Dragon Ball 9.Évad 254–291.Rész</string>
+
+	<!--Dragon Ball Z Évad Lista-->
+	<string name="dbze1">Dragon Ball Z 1.Évad 1–39.Rész</string>
+	<string name="dbze2">Dragon Ball Z 2.Évad 40–74.Rész</string>
+	<string name="dbze3">Dragon Ball Z 3.Évad 75–107.Rész</string>
+	<string name="dbze4">Dragon Ball Z 4.Évad 108–139.Rész</string>
+	<string name="dbze5">Dragon Ball Z 5.Évad 140–165.Rész</string>
+	<string name="dbze6">Dragon Ball Z 6.Évad 166–194.Rész</string>
+	<string name="dbze7">Dragon Ball Z 7.Évad 195–219.Rész</string>
+	<string name="dbze8">Dragon Ball Z 8.Évad 220–253.Rész</string>
+	<string name="dbze9">Dragon Ball Z 9.Évad 254–291.Rész</string>
+
+	<!--Dragon Ball GT Évad Lista-->
+	<string name="dbgte1">Dragon Ball GT 1.Évad 1–17.Rész</string>
+	<string name="dbgte2">Dragon Ball GT 2.Évad 17–40.Rész</string>
+	<string name="dbgte3">Dragon Ball GT 3.Évad 41–47.Rész</string>
+	<string name="dbgte4">Dragon Ball GT 4.Évad 48–64.Rész</string>
+	<string name="dbgte5">Dragon Ball GT Goku Öröksége</string>
+
+	<!--Dragon Ball Super Évad Lista-->
+	<string name="dbse1">Dragon Ball Super 1.Évad 1–18.Rész</string>
+	<string name="dbse2">Dragon Ball Super 2.Évad 19–27.Rész</string>
+	<string name="dbse3">Dragon Ball Super 3.Évad 28–46.Rész</string>
+	<string name="dbse4">Dragon Ball Super 4.Évad 47–76.Rész</string>
+	<string name="dbse5">Dragon Ball Super 5.Évad 77–131.Rész</string>
+    <string name="todo">TODO</string>
+
+
+</resources>
+

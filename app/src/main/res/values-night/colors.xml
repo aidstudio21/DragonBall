@@ -1,0 +1,9 @@
+<resources>
+	<color name="colorPrimary">#1f5d8c</color>
+	<color name="colorPrimaryDark">#1f5d8c</color>
+	<color name="colorAccent">#285b82</color>
+	<color name="colorControlHighlight">#2979ff</color>
+	<color name="colorControlNormal">#1f5d8c</color>
+    <color name="actionMenuTextColor">#ffffff</color>
+    <color name="popupBackground">#212121</color>
+</resources>
