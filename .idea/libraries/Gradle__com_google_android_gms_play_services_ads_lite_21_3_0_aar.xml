@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-ads-lite:21.3.0@aar">
+    <CLASSES>
+      <root url="file://E:/Unity/2019.4.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/caches/transforms-3/cd4a5b7fe679e50872f7374c88e7a06b/transformed/jetified-play-services-ads-lite-21.3.0/res" />
+      <root url="jar://E:/Unity/2019.4.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/caches/transforms-3/cd4a5b7fe679e50872f7374c88e7a06b/transformed/jetified-play-services-ads-lite-21.3.0/jars/classes.jar!/" />
+      <root url="file://E:/Unity/2019.4.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/caches/transforms-3/cd4a5b7fe679e50872f7374c88e7a06b/transformed/jetified-play-services-ads-lite-21.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/Unity/2019.4.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/caches/modules-2/files-2.1/com.google.android.gms/play-services-ads-lite/21.3.0/54c42d52c04409a21cd8da9f9b9b77065959645/play-services-ads-lite-21.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

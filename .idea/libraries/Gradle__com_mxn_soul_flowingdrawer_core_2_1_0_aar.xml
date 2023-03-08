@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mxn.soul:flowingdrawer-core:2.1.0@aar">
+    <CLASSES>
+      <root url="jar://E:/Unity/2019.4.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/caches/transforms-3/8f7fbae2dec94c8620f0151189aa8991/transformed/jetified-flowingdrawer-core-2.1.0/jars/classes.jar!/" />
+      <root url="file://E:/Unity/2019.4.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/caches/transforms-3/8f7fbae2dec94c8620f0151189aa8991/transformed/jetified-flowingdrawer-core-2.1.0/AndroidManifest.xml" />
+      <root url="file://E:/Unity/2019.4.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/caches/transforms-3/8f7fbae2dec94c8620f0151189aa8991/transformed/jetified-flowingdrawer-core-2.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/Unity/2019.4.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/caches/modules-2/files-2.1/com.mxn.soul/flowingdrawer-core/2.1.0/613b22ff982ea590867e1e953fcf7cf0dd1b6608/flowingdrawer-core-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
